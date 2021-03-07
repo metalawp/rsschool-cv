@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <main class="main">
+      <nav class="navbar">
+        <ul class="topmenu">
+          <li><a href="#top">About me</a></li>
+          <li><a href="#workingexp">Expirience</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code examples</a></li>
+          <li><a href="#lang">Languages</a></li>
+        </ul>
+      </nav>
+      <header class="header">
+        <img class="image" src="image.jpg" alt="Andrey Krainov" />
+
+        <article>
+          <h1 id="top" class="anchor">Andrey A. Krainov</h1>
+          <h2>Contacts</h2>
+          <ul class="contacts">
+            <li><i class="fa fa-phone"></i>+7 (920) 363-25-35</li>
+            <li><i class="fa fa-inbox"></i>metal.awp@gmail.com</li>
+            <li><i class="fa fa-home"></i>Kineshma</li>
+            <li><i class="fa fa-github"></i>@metalawp</li>
+          </ul>
+
+          <h2 id="aboutme">About me</h2>
+          <div class="infoblock">
+            <h3>Goals:</h3>
+            <div class="info">
+              <p>To learn new technologies</p>
+              <p>Work remotly</p>
+              <p>Have decent salary</p>
+            </div>
+          </div>
+          <div class="infoblock">
+            <h3>Priorities:</h3>
+            <div class="info">
+              <p>To be the best</p>
+              <p>To code smart</p>
+              <p>Earning work team's respect</p>
+            </div>
+          </div>
+          <div class="infoblock">
+            <h3>Strong sides:</h3>
+            <div class="info">
+              <p>Learn quickly</p>
+              <p>Have a sense of humor</p>
+              <p>Work hard</p>
+            </div>
+          </div>
+        </article>
+      </header>
+
+      <article>
+        <h2 id="workingexp" class="anchor">Expirience</h2>
+        <ul class="list">
+          <li>"Vector" printing house, Designer (2010 - 2014)</li>
+          <li>"SmartStudio" photo shop, Head (2014 - 2018)</li>
+          <li>
+            "Kineshma medical college", System administrator (2018 - 2020)
+          </li>
+          <li>
+            "Kineshma medical college", Distance learning portal technical
+            administrator (2019 - now)
+          </li>
+          <li>
+            "LanSecurity" IT outsorsing company, Technical support (2020 - now)
+          </li>
+        </ul>
+      </article>
+      <hr />
+      <article>
+        <h2 id="edu" class="anchor">Education</h2>
+        <ul class="list">
+          <li>
+            Moscow State Industrial University (Kineshma branch), Informatics in
+            Economics. (2008 - 2010 (not graduated)
+          </li>
+          <li>
+            Synergy University (Colledge), Information Technologies. (2018 -
+            now)
+          </li>
+        </ul>
+      </article>
+      <hr />
+      <article>
+        <h2 id="skills" class="anchor">Skills</h2>
+        <ul class="list">
+          <li>Programming languages: Borland Pascal, JavaScript</li>
+          <li>Frameworks: None</li>
+          <li>Version control systems: Git</li>
+        </ul>
+      </article>
+      <hr />
+      <article>
+        <h2 id="code" class="anchor">Code examples</h2>
+        <h3>Euclid algorithm</h3>
+        Greatest common divisor problem
+        <pre>
+    function mygcd(x,y){
+        let div = Math.max(x,y) % Math.min(x,y); 
+        if (div != 0) { 
+            let result = Math.min(x,y) % div;
+            x = Math.min(x,y);
+            y = div; 
+            return (result == 0) ? div : mygcd(x,y); 
+        } else return Math.min (x,y); 
+    }</pre
+        >
+      </article>
+      <hr />
+      <article>
+        <h2 id="lang" class="anchor">Languages</h2>
+        <ul class="list">
+          <li>Russian (native)</li>
+          <li>English (B2)</li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>
+          This page was created for completion of the task HTML, CSS & GIT at
+          RsSchool by Andrey Krainov, 2021.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
