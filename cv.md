@@ -29,6 +29,13 @@ _RsSchool student_
 
 ---
 
+## Education
+
+- Moscow State Industrial University (Kineshma branch), Informatics in Economics. (2008 - 2010 (not graduated)
+- Synergy University (Colledge), Information Technologies. (2018 - now)
+
+---
+
 ## Skills
 
 - Programming languages: Pascal, Java Script
