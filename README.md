@@ -1,1 +1,1 @@
-https://metalawp.github.io/rsschool-cv/cv
+https://metalawp.github.io/rsschool-cv/
