@@ -2,6 +2,8 @@
 
 _RsSchool student_
 
+![alt text](image.jpg "Andrey Krainov")
+
 ## Contacts
 
 | Phone                  | E-mail                  | City         | GitHub        |
