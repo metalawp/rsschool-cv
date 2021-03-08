@@ -115,3 +115,10 @@ pre {
   display: block;
   content: "";
 }
+.rss {
+  margin-top: -5px;
+  float: right;
+  padding: 5px;
+  width: 60px;
+  background-color: #fff;
+}
